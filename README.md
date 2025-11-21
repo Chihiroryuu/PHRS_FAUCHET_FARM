@@ -73,13 +73,29 @@ python index.py
 
 ---
 
-## 📦 7. Gather All Farmed Accounts
+## 📦 7. Gathering All Farmed Accounts
 
-To merge or collect all generated/farmed accounts:
+First, insert the receiver wallet address:
+
+```sh
+nano receiver_address.txt
+```
+
+Add your **receiver wallet address**, then save (**CTRL + S**) and exit (**CTRL + X**).
+
+If you encounter a module error such as `ModuleNotFoundError: web3`, install Web3 first:
+
+```sh
+pip install web3
+```
+
+After that, run the gather script:
 
 ```sh
 python gather.py
 ```
+
+---
 
 ---
 
@@ -163,13 +179,28 @@ python index.py
 
 ## 📦 7. Mengumpulkan Semua Akun Hasil Farming
 
-Gunakan perintah berikut untuk menggabungkan semua akun:
+Pertama, masukkan wallet penerima hasil farming:
+
+```sh
+nano receiver_address.txt
+```
+
+Isi dengan **alamat wallet penerima**, lalu simpan (**CTRL + S**) dan keluar (**CTRL + X**).
+
+Jika saat menjalankan terjadi error modul seperti `ModuleNotFoundError: web3`, instal modul Web3 terlebih dahulu:
+
+```sh
+pip install web3
+```
+
+Setelah itu baru jalankan pengumpulan akun:
 
 ```sh
 python gather.py
 ```
 
 ---
+
 
 ## ✔️ Selesai
 
